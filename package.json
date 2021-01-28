@@ -1,6 +1,6 @@
 {
   "name": "@moderncrazy/egg-bin",
-  "version": "4.15.3",
+  "version": "4.15.4",
   "description": "egg developer tool",
   "main": "index.js",
   "bin": {
@@ -13,7 +13,7 @@
     "autod": "^3.1.0",
     "chalk": "^2.4.2",
     "co-mocha": "^1.2.2",
-    "common-bin": "^2.9.0",
+    "common-bin": "git://github.com/node-modules/common-bin.git#dependabot/npm_and_yarn/yargs-parser-19.0.4",
     "debug": "^4.1.1",
     "detect-port": "^1.3.0",
     "egg-utils": "^2.4.1",
