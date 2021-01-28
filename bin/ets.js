@@ -2,4 +2,4 @@
 
 'use strict';
 
-require('egg-ts-helper/dist/bin');
+require('@moderncrazy/egg-ts-helper/dist/bin');

@@ -22,7 +22,7 @@ describe('test/ets-bin.test.js', () => {
       }),
     })
       // .debug()
-      .expect('stdout', /\[egg-ts-helper\] create/)
+      .expect('stdout', /\[@moderncrazy\/egg-ts-helper\] create/)
       .expect('code', 0)
       .end();
   });

@@ -1,6 +1,6 @@
 {
-  "name": "egg-bin",
-  "version": "4.15.0",
+  "name": "@moderncrazy/egg-bin",
+  "version": "4.15.1",
   "description": "egg developer tool",
   "main": "index.js",
   "bin": {
@@ -54,7 +54,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/eggjs/egg-bin.git"
+    "url": "git@github.com:moderncrazy/egg-bin.git"
   },
   "bug": {
     "url": "https://github.com/eggjs/egg/issues"
@@ -70,6 +70,9 @@
     "ci-test-only": "TESTS=test/lib/cmd/cov.test.js npm run test-local",
     "ci": "npm run lint && npm run pkgfiles -- --check && npm run ci-test-only && npm run cov",
     "autod": "node bin/egg-bin.js autod"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "engines": {
     "node": ">= 6.0.0"
