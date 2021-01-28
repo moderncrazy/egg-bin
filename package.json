@@ -15,7 +15,7 @@
     "common-bin": "^2.9.0",
     "debug": "^4.1.1",
     "detect-port": "^1.3.0",
-    "egg-ts-helper": "^1.25.2",
+    "egg-ts-helper": "git://github.com/whxaxes/egg-ts-helper.git#dependabot/npm_and_yarn/dot-prop-5.2.0",
     "egg-utils": "^2.4.1",
     "espower-typescript": "9.0.1",
     "globby": "^9.2.0",
